@@ -1,0 +1,142 @@
+body {
+
+    background-image: url("https://images.hdqwalls.com/wallpapers/white-cube-pattern-4k-bu.jpg");
+    margin: 0px, 0px, 0px, 0px;
+
+}
+
+footer {
+    text-align: center;
+    margin-top: 60px;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: red;
+}
+
+#bild {
+    color:blue;
+    font-size: 80px;
+    font-weight: 600;
+}
+#headingText {
+    margin-bottom: 100px;
+    color: blue;
+    font-size: 30px;
+    font-weight: 400; 
+} 
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+
+
+
+
+  .dropdown {
+    color: blue;
+    padding: 15px;
+    border-color: blue;
+    background-color: transparent;
+    border-radius: 20px;
+    padding-block: 10px;
+    margin-left: 10px;
+}
+.dropdown { 
+    position: relative; 
+    display: inline-block; 
+  } 
+   
+  .dropbtn { 
+    background-color: transparent; 
+    color: blue; 
+    padding: 16px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    border-radius: 20px;
+    border-color: blue;
+  } 
+   
+  .dropdown-content { 
+    display: none; 
+    position: absolute; 
+    background-color: none;
+    border-color: blue;
+    border-bottom: 10px; 
+    min-width: 160px; 
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+    z-index: 1; 
+    border-radius: 10px;
+  } 
+form{
+    text-align: left;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 800;
+    color: blue;
+}   
+  .dropdown-content a { 
+    color: blue; 
+    padding: 12px 10px; 
+    text-decoration: none; 
+    display: block;     
+    
+} 
+.forms {
+    border-radius: 5px;
+    border-color: transparent;
+}
+button{
+    color: blue;
+    background-color: transparent;
+    border-color: blue;
+    border-radius: 5px;
+}
+#textarea{
+    border: none;
+    border-color: transparent;
+}
+ a:active{
+     color: red;
+ }
+a:hover {
+    transform: scale(1.1);
+
+}
+a{
+    border-style: solid;
+    border-radius: 20px;
+    margin: 10px;
+    text-align: justify;
+
+}
+.dropdown:hover .dropdown-content { 
+    display: block; 
+
+  } 
+  #centralniDio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .footerLink{
+    border-style: none;
+    border-radius: none;
+    margin: 10px;
+    font-weight: 800;
+    text-decoration: none;
+  }
+  iframe{
+  height: 150%;
+  width: 250px;
+  border-radius: 15px;
+  border-color: blue;
+    border-spacing: 20px;
+    margin-block-start: -150px;
+}
