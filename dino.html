@@ -18,11 +18,14 @@
 
 <body>
     <header>
-        <p id="bild"> BILD IT <span id="headingText">Generacija 2022/2023 </span></p>
+        <p id="bild"> BILD IT <span id="headingText">Generacija 2022/2023 </span>
+      <span id="quote"> The smallest act of kindness is worth more than the grandest intention.
+            ~ <em>Oscar Wilde</em></span></p>
     </header>
     <div>
     <div class="dropdown"> 
-        <button class="dropbtn">Izaberi ucesnika</button> 
+        <label id="textMeni">Izaberite ucesnika</label> <br> <br>
+        <button class="dropbtn">Dino Delic</button> 
         <div class="dropdown-content"> 
             <a href="index.html">Adis Aljic</a> 
             <a href="leila.html">Leila Omerhodzic</a> 
@@ -41,23 +44,24 @@
     </div>
     <div id="centralniDio">
 
-        <div >
+        <div id="formsdiv">
             <form method="POST" action="https://script.google.com/macros/s/AKfycbwgz33pT1sH-QOwEW52S71epXMzDwamx73TnvlOVraJ5jKb2n-Sr37lPt5WCez6p2ZsyQ/exec" target="_blank">
             <br>
-            <label for="Datum"> Datum volontiranja </label> <br>
-            <input class="forms" name="Datum" type="date" required>
+            <label for="Date"> Choose date </label> <br>
+            <input class="forms" name="Date" type="date" required>
             <br> <br>   
-            <label for="Vrijeme volontiranja za BILD IT"> Unesite vrijeme volontiranja za BILD IT </label> <br> 
-            <input class="forms" name="Vrijeme volontiranja za BILD IT" type="number"> <br><br>
-            <label for="Opis volontiranja"> Opisite vid volontiranja </label> <br>
-            <input class="forms" name="Opis volontiranja" type="text"> <br> <br>
+            <label for="Community service hours"> Number of community service hours </label> <br> 
+            <input required placeholder="Enter time in hours" class="forms" name="Community service hours" type="number" step="0.5"> <br><br>
+            <label for="Description for community service hours"> Describe your service hours </label> <br>
+            <input required class="forms" name="Description for community service hours" type="text"> <br> <br>
           <br> <br>
-            <button type="submit">Posalji</button>
+
+            <button type="submit">Send</button>
             <script>
                 function clearFunc() {
-                    document.getElementById("Datum").value = "";
-                    document.getElementById("Vrijeme volontiranja za BILD IT").value = "";
-                    document.getElementById("Opis volontiranja").value = "";
+                    document.getElementById("Date").value = "";
+                    document.getElementById("Community service hours").value = "";
+                    document.getElementById("Description for community service hours").value = "";
                 }	
             </script>
 
@@ -65,11 +69,9 @@
 </div>
 <div>
     <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRh01ydPqzxnL8x6mE_F6kvgoB0U0OfWk_85ZhtFWmPCyFBQEvLABGs6houyP_TMLUNIptjBWIGt8Er/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe></div>
-</div>
-
 </body>
 <footer>
-   <p> <a class="footerLink" href="www.mozemo.ba"> Mozemo.ba</a></p>
+   <!-- <p> <a class="footerLink" href="www.mozemo.ba"> Mozemo.ba</a></p> -->
     <p> Stranicu napravio <a class="footerLink" href="https://www.linkedin.com/in/adis-aljic-056b13239/">Adis Aljic</a></p>
 </footer>
 
