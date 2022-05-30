@@ -211,11 +211,11 @@ a {
 }
 
 iframe {
-    height: 540px;
-    width: 630px;
+    height: 480px;
+    width: 700px;
     border-radius: 15px;
     border-color: blue;
-    margin-block-start: -120px;
+    margin-block-start: -100px;
     padding-left: 20px;
     background-color: white;
     box-shadow: 15px 15px 15px lightblue;
